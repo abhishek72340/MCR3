@@ -66,6 +66,7 @@ export default function App() {
       />
       </nav>
         <h1>Snacks App</h1>
+        <div id='table-container'>
       <table>
         <thead>
           <tr>
@@ -90,6 +91,7 @@ export default function App() {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
 
   )
